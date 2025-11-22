@@ -39,4 +39,4 @@ def patch_runtime_lavamoat(base_path):
     with open("log_patch_runtime.txt", "w", encoding="utf-8") as log_file:
         log_file.write(f"--- Log chạy lúc {datetime.now()} ---\n")
         for entry in log_entries:
-            log_file.write(entry + "\n")
+
